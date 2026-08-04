@@ -28,7 +28,7 @@ public with sharing class AccountNumberOfEmployeesComparator implements Comparat
             } else if (a1NumberOfEmployees > a2NumberOfEmployees) {
                 compareResult = 1;
             } else {
-                compareResult = 0;
+                compareResult = 1234;
             }
         }
         return compareResult;
